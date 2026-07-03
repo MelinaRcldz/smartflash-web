@@ -102,6 +102,8 @@ export default function QuizPage() {
         title="Modo Quiz"
         variant="selector"
         subtitle="Elegí un mazo para poner a prueba tus conocimientos."
+        mobileSubtitle="Elegí un mazo para comenzar."
+        aria-label="Selector de mazos para el modo Quiz"
       >
         <DeckSelector
           decks={deckOptions}
@@ -155,6 +157,7 @@ export default function QuizPage() {
         setSessionHits(0);
         setSessionMisses(0);
       }}
+      aria-label="Pantalla principal del modo Quiz"
     >
       <QuizSession
         currentCard={currentCard}
