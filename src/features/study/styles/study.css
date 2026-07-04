@@ -324,7 +324,7 @@
   }
 
   .review-progress {
-    margin-bottom: clamp(1.25rem, 4dvh, 1.75rem);
+    margin-bottom: clamp(1.25rem, 4svh, 1.75rem);
   }
 
   .review-progress-text {
@@ -336,11 +336,11 @@
   }
 
   .review-flip-card {
-    margin-top: clamp(1.5rem, 5dvh, 2.25rem);
+    margin-top: clamp(1.5rem, 5svh, 2.25rem);
   }
 
   .review-flip-inner {
-    min-height: clamp(280px, 42dvh, 390px);
+    min-height: clamp(280px, 42svh, 390px);
   }
 
   .review-flip-face {
@@ -348,7 +348,7 @@
   }
 
   .review-card-content {
-    min-height: clamp(220px, 34dvh, 320px);
+    min-height: clamp(220px, 34svh, 320px);
   }
 
   .review-question {
@@ -371,7 +371,7 @@
   }
 
   .review-actions {
-    margin-top: clamp(1.5rem, 5dvh, 2.25rem);
+    margin-top: clamp(1.5rem, 5svh, 2.25rem);
     align-items: center;
     gap: clamp(0.5rem, 2.5vw, 0.75rem);
   }
