@@ -298,3 +298,125 @@
     transform: translate(2px, 2px) scale(0.98);
   }
 }
+
+
+.review-question {
+  font-size: 1.5rem;
+}
+
+.review-answer {
+  font-size: 1.125rem;
+}
+
+.review-label-mobile {
+  display: none;
+}
+
+/* Mobile responsive: no cambia desktop */
+@media (max-width: 639px) {
+  .review-session {
+    width: 100%;
+    padding-inline: clamp(0.75rem, 4vw, 1.25rem);
+  }
+
+  .review-session-panel {
+    padding: clamp(1.25rem, 5vw, 1.75rem);
+  }
+
+  .review-progress {
+    margin-bottom: clamp(1.25rem, 4dvh, 1.75rem);
+  }
+
+  .review-progress-text {
+    font-size: clamp(0.8rem, 3.4vw, 0.95rem);
+  }
+
+  .review-progressbar {
+    height: clamp(0.45rem, 1.5vw, 0.6rem);
+  }
+
+  .review-flip-card {
+    margin-top: clamp(1.5rem, 5dvh, 2.25rem);
+  }
+
+  .review-flip-inner {
+    min-height: clamp(280px, 42dvh, 390px);
+  }
+
+  .review-flip-face {
+    padding: clamp(1.25rem, 6vw, 2rem);
+  }
+
+  .review-card-content {
+    min-height: clamp(220px, 34dvh, 320px);
+  }
+
+  .review-question {
+    font-size: clamp(1.35rem, 6vw, 2rem);
+    line-height: 1.35;
+  }
+
+  .review-answer-label {
+    margin-bottom: clamp(0.75rem, 2.5vw, 1rem);
+    font-size: clamp(0.7rem, 2.8vw, 0.82rem);
+  }
+
+  .review-answer {
+    font-size: clamp(1rem, 4.4vw, 1.3rem);
+    line-height: 1.55;
+  }
+
+  .study-card-deck {
+    display: none;
+  }
+
+  .review-actions {
+    margin-top: clamp(1.5rem, 5dvh, 2.25rem);
+    align-items: center;
+    gap: clamp(0.5rem, 2.5vw, 0.75rem);
+  }
+
+  .review-actions > div {
+    width: 100%;
+  }
+
+  .review-actions .flex {
+    justify-content: stretch;
+  }
+
+  .review-actions .pb-4 {
+    padding-bottom: 0;
+  }
+
+  .review-action-button {
+    width: 100%;
+    min-height: 44px;
+    padding: clamp(0.7rem, 3vw, 0.9rem) clamp(0.55rem, 2.5vw, 0.9rem);
+    font-size: clamp(0.78rem, 3.2vw, 0.92rem);
+    font-weight: 700;
+  }
+
+  .review-label-desktop {
+    display: none;
+  }
+
+  .review-label-mobile {
+    display: inline;
+  }
+
+  .review-mobile-deck {
+    padding: clamp(0.9rem, 4vw, 1.2rem);
+  }
+
+  .review-mobile-deck p:first-child {
+    font-size: clamp(0.68rem, 2.8vw, 0.78rem);
+  }
+
+  .review-mobile-deck p:last-child {
+    font-size: clamp(0.9rem, 3.8vw, 1rem);
+  }
+
+  .review-mobile-deck button {
+    font-size: clamp(0.82rem, 3.2vw, 0.95rem);
+  }
+}
